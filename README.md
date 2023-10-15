@@ -43,6 +43,8 @@ PAYPAL_CLIENT_SECRET="EFdZPPjpYCXB8MRxBZWW-YrSJtbVAQh1MGMRQP5b9jPP7QYt70AUjNtVLB
 ![3](https://github.com/franzDELOS/authentication-with-paypal-integration/assets/108921882/76402049-7ee1-4901-885f-db739f924635)
 ![4](https://github.com/franzDELOS/authentication-with-paypal-integration/assets/108921882/f4b1a462-fb9c-4d7c-bd3f-0dc3e0dd14c2)
 
+Check email for the sandbox account
+
 
 
 
