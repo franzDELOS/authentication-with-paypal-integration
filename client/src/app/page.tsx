@@ -1,20 +1,13 @@
 "use client";
-import { useState, useEffect, Fragment } from "react";
+import { Fragment } from "react";
 import { useRouter } from "next/navigation";
 import ProductCard from "./shared/components/ProductCard";
 import products from "@/app/products/products.json";
-import { ProductCardProps } from "./shared/components/ProductCard";
 
 export default function Home() {
-  const initialOptions = {
-    clientId: "test",
-    currency: "USD",
-    intent: "capture",
-  };
-
   const router = useRouter();
 
-  const handleClick = (productId: ProductCardProps) => {
+  const handleClick = (productId: number) => {
     router.push(`/products/${productId}`);
   };
 

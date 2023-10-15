@@ -22,6 +22,7 @@ app.use(
     credentials: true,
   })
 );
+
 app.use(cookieParser());
 
 const db = mysql.createConnection({
@@ -228,7 +229,7 @@ app.get("/logout", (req, res) => {
 const verifyUser = (req, res, next) => {
   const token = req.cookies.token;
   if (!token) {
-    return res.status(200).json({ success: "You are Authenticated" });
+    return res.status(400).json({ success: "You are Not Authenticated" });
   } else {
     jwt.verify(token, "jwt-secret-key", (err, decoded) => {
       if (err) {

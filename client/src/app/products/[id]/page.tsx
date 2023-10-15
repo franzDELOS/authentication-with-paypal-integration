@@ -5,7 +5,6 @@ import products from "@/app/products/products.json";
 import { useRouter } from "next/navigation";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { ProductCardProps } from "@/app/shared/components/ProductCard";
 
 const ProductDetail = ({
   params,
@@ -65,8 +64,8 @@ const ProductDetail = ({
               <div className="relative mb-6 lg:mb-10">
                 <img
                   src={productDetail?.thumbnail}
-                  alt=""
-                  className="object-contain w-full h-full "
+                  alt="sad"
+                  className="object-contain w-full h-full"
                 />
               </div>
             </div>

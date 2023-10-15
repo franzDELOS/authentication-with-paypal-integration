@@ -10,7 +10,7 @@
       "stock": 94,
       "brand": "Apple",
       "category": "smartphones",
-      "thumbnail": "../../../public/images/1.webp"
+      "thumbnail": "/images/1,2.webp"
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@
       "stock": 34,
       "brand": "Apple",
       "category": "smartphones",
-      "thumbnail": "../../../public/images/2.jpg"
+      "thumbnail": "/images/2.jpg"
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
       "stock": 36,
       "brand": "Samsung",
       "category": "smartphones",
-      "thumbnail": "../../../public/images/3.jpg"
+      "thumbnail": "/images/3.jpg"
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
       "stock": 123,
       "brand": "OPPO",
       "category": "smartphones",
-      "thumbnail": "../../../public/images/4.jpg"
+      "thumbnail": "/images/4.jpg"
     },
     {
       "id": 5,
@@ -58,7 +58,7 @@
       "stock": 32,
       "brand": "Huawei",
       "category": "smartphones",
-      "thumbnail": "../../../public/images/5.jpg"
+      "thumbnail": "/images/5.jpg"
     },
     {
       "id": 6,
@@ -70,7 +70,7 @@
       "stock": 83,
       "brand": "Apple",
       "category": "laptops",
-      "thumbnail": "../../../public/images/6.jpg"
+      "thumbnail": "/images/6.jpg"
     },
     {
       "id": 7,
@@ -82,7 +82,7 @@
       "stock": 50,
       "brand": "Samsung",
       "category": "laptops",
-      "thumbnail": "../../../public/images/7.webp"
+      "thumbnail": "/images/6.jpg"
     },
     {
       "id": 8,
@@ -94,7 +94,7 @@
       "stock": 68,
       "brand": "Microsoft Surface",
       "category": "laptops",
-      "thumbnail": "../../../public/images/8.webp"
+      "thumbnail": "/images/7.webp"
     },
     {
       "id": 9,
@@ -106,7 +106,7 @@
       "stock": 96,
       "brand": "Infinix",
       "category": "laptops",
-      "thumbnail": "../../../public/images/9.jpg"
+      "thumbnail": "/images/9.jpg"
     },
     {
       "id": 10,
@@ -118,7 +118,7 @@
       "stock": 89,
       "brand": "HP Pavilion",
       "category": "laptops",
-      "thumbnail": "../../../public/images/10.jpg"
+      "thumbnail": "/images/10.jpg"
     }
   ]
 }
