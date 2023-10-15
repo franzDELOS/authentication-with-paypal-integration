@@ -25,10 +25,10 @@ visit url: http://localhost:3000/login
 
 2. _Create a `.env` file and add this_ <br>
 //Add your database connection <br>
-   DB_HOST="" <br>
-DB_USER="" <br>
+   DB_HOST="localhost" <br>
+DB_USER="root" <br>
 DB_PASSWORD="" <br>
-DB_DATABASE=""  <br>
+DB_DATABASE="authentication"  <br>
 //Port to use <br>
 PORT = 8081 <br>
 //Secret key for Paypal Integration <br>
